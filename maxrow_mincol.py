@@ -1,3 +1,10 @@
+# Index of element which is maximum element of row and minimum element of column
+# [1, 2, 3],
+# [1, 4, 9],
+# [76, 34, 21]
+
+# op row 1 col 3
+
 def minMax(mat, r, c):
     for i in range(r):
         row_max=mat[i][0]
